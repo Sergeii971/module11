@@ -1,0 +1,1 @@
+ALTER TABLE employee ADD CONSTRAINT company_id FOREIGN KEY(company_id)  REFERENCES company(id);
